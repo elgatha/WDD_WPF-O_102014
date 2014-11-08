@@ -22,3 +22,4 @@ var avgHoursPerWeek = parseInt(prompt('How many hours per week did you work (num
 //chinese proverb says - "you become awesome master after 10000 hours at 9999 you are still an idiot"
 var requiredHoursForAwesomeness = 10000;
 
+//calculate total hours worked per week by hours worked per year multiplied by number of years
