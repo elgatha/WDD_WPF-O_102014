@@ -2,7 +2,7 @@
 Elgatha Lee
 WPF 144 - Assignment: 
 Expressions_Personal
-11062014
+11/06/2014
 */
 
 //problem: my car was purchased a few months ago, and the transmission went kaput shortly after, but now I am stuck with what replacing it so - how much is it going to cost me to replace the transmission in my Mini Cooper?
