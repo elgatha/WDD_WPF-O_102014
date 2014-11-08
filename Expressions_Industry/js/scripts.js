@@ -24,3 +24,8 @@ var requiredHoursForAwesomeness = 10000;
 
 //calculate total hours worked per week by hours worked per year multiplied by number of years
 var hoursWorked = (avgHoursPerWeek*52)*yearsWorked;
+
+//get number of hours Awesome Chef status is achieved
+var timeRemaining = requiredHoursForAwesomeness - hoursWorked;
+
+//if time remaining then output, else congratulate
