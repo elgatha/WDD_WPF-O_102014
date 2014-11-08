@@ -17,3 +17,6 @@ var costOfNewTransmission = parseInt(prompt('How much is the transmission going 
 //labour hours
 var labourCostPerHour = 45;
 
+//first calculate number of hours worked
+var totalHours = ((mechanicTime*costOfTow)/labourCostPerHour);
+
