@@ -46,4 +46,4 @@ var catString = 'Chef Apple-Elgatha recommends the following pairings: ('+fareSu
 
 
 //log
-console.log(catString)
+console.log(catString);
