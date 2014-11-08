@@ -23,3 +23,5 @@ var totalHours = ((mechanicTime*costOfTow)/labourCostPerHour);
 //then use number of total hours to calculate cost
 var totalPriceForNewTransmission = totalHours*labourCostPerHour;
 
+var catString = 'Given your information it will cost you $'+totalPriceForNewTransmission+' to fix your Mini Cooper.  You should just buy a new car. Sorry :(';
+
