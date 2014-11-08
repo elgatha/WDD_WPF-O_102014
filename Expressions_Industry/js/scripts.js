@@ -13,3 +13,6 @@ Expressions_Industry
 //name of job
 var skill = prompt('What skill did you practice to be an Amazing Chef  For example - "Knife Skills","Education" or "Training"');
 
+//number of years working body into the ground
+var yearsWorked = parseInt(prompt('How many years were you actively a Chef (numeric)?'));
+
