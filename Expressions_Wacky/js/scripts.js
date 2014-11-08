@@ -50,3 +50,6 @@ console.log(catString);
 
 
 (function(){
+    
+	$('body').append('<p>'+catString+'</p>');
+});
