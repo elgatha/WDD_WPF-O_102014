@@ -28,6 +28,6 @@ var catString = 'Given your information it will cost you $'+totalPriceForNewTran
 //print to console
 console.log(catString);
 
-$(function(){
+(function(){
 	$('body').append('<p>'+catString+'</p>');
 });
