@@ -8,5 +8,6 @@ Expressions_Industry
 
 //Problem: given a job and number of hours worked, how many hours until technically becoming awesome at being a Chef?
 
+//"Awesomeness" inspired by Jack Black in Kung Fu Panda because my youngest niece is 3 years old and loves it and I'm stuck babysitting
 
 
