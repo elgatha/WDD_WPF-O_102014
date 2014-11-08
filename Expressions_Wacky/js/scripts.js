@@ -49,4 +49,4 @@ var catString = 'Chef Apple-Elgatha recommends the following pairings: ('+fareSu
 console.log(catString);
 
 
-(function()
+(function(){
