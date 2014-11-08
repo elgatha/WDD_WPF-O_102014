@@ -36,4 +36,4 @@ var catString = (timeRemaining > 0) ? 'You have '+timeRemaining+' hours left of 
 console.log(catString);
 
 (function(){
-	
+	$('body').append('<p>'+catString+'</p>');
