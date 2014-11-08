@@ -10,4 +10,6 @@ Expressions_Industry
 
 //"Awesomeness" inspired by Jack Black in Kung Fu Panda because my youngest niece is 3 years old and loves it and I'm stuck babysitting
 
+//name of job
+var skill = prompt('What skill did you practice to be an Amazing Chef  For example - "knife skills"');
 
