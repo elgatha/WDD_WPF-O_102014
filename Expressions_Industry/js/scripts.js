@@ -29,3 +29,12 @@ var hoursWorked = (avgHoursPerWeek*52)*yearsWorked;
 var timeRemaining = requiredHoursForAwesomeness - hoursWorked;
 
 //if time remaining then output, else congratulate
+var catString = (timeRemaining > 0) ? 'You have '+timeRemaining+' hours left of work until you are considered Awesome at '+skill+'.  Keep working you will get the eventually' : 
+
+//log
+console.log(catString);
+
+(function(){
+	$('body').append('<p>'+catString+'</p>');
+});
+
