@@ -39,3 +39,7 @@ for(var i = 0; i < 3; i++){
 	//concatenate and push into an array
 	fareSuggestions.push(randomCuisine.trim()+' + '+randomBeer.trim()+' + '+randomSweetTooth.trim());
 }
+
+
+//concatenate
+var catString = 'Chef Apple-Elgatha recommends the following pairings: ('+fareSuggestions[0]+'), 
