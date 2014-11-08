@@ -11,3 +11,6 @@ var costOfTow = parseInt(prompt('How much did it cost to tow Mini Cooper to Mech
 //prompt for hours mechanic works on the car - multiply by two so we can drop and replace
 var mechanicTime = parseInt(prompt('How long will it take for the Dale-the-Mechanic to drop the transmission and then replace it?'))*2;
 
+//prompt for cost of transmission
+var costOfNewTransmission = parseInt(prompt('How much is the transmission going to cost?'));
+
