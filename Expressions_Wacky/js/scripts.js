@@ -7,3 +7,5 @@ WPF 144 - Assignment: Expressions_Wacky
 
 var favCuisine = prompt('List three of your favourite types of cuisine, separated by commas');
 var favBeer = prompt('List three of your favourite types of beers, separated by commas');
+var favSweetTooth = prompt('List three of your favourite types of desserts for your Sweet-Tooth, separated by commas');
+
