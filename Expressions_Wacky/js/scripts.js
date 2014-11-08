@@ -24,3 +24,11 @@ if(favCuisine.length != 3 || favBeer.length != 3 || favSweetTooth.length != 3){
 
 //create variables for fabulous fare
 var fareSuggestions = new Array();
+
+//create three suggestions
+for(var i = 0; i < 3; i++){
+	//use math.rand and array.length to select the random index
+	var randomCuisine = favCuisine[Math.floor(Math.random() * favCuisine.length)];
+	var randomBeer = favBeer[Math.floor(Math.random() * favBeer.length)];
+	var randomSweetTooth = favSweetTooth[Math.floor(Math.random() * favSweetTooth.length)];
+	
