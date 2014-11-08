@@ -15,3 +15,8 @@ favCuisine = favCuisine.split(',');
 favBeer = favBeer.split(',');
 favSweetTooth = favSweetTooth.split(',');
 
+
+//check to see if the user has entered three comma separated items
+if(favCuisine.length != 3 || favBeer.length != 3 || favSweetTooth.length != 3){
+	alert('Please enter three of each of the items separated by commas');
+}
