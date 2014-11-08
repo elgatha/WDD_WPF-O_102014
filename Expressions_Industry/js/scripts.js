@@ -31,3 +31,7 @@ var timeRemaining = requiredHoursForAwesomeness - hoursWorked;
 //if time remaining then output, else congratulate
 var catString = (timeRemaining > 0) ? 'You have '+timeRemaining+' hours left of work until you are considered Awesome at '+skill+'.  Keep working you will get the eventually': 'Not too loud, BUT YOU ARE FRICKIN\' ROCK!!!. BOOYAH!! Not only do you ROCK but you have achieved AWESOME STATUS. Treat yourself to a beer and a damn good foot massage, you deserve it and do that Happy dance all the way there, after that retire, go to Full Sail University Online and begin to learn a new skill!';
  
+
+//log
+console.log(catString);
+
