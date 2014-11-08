@@ -16,3 +16,6 @@ var skill = prompt('What skill did you practice to be an Amazing Chef  For examp
 //number of years working body into the ground
 var yearsWorked = parseInt(prompt('How many years did I spend actively as a Chef (numeric)?'));
 
+//get number of hours worked per week that you can barely stand
+var avgHoursPerWeek = parseInt(prompt('How many hours per week did you work (numeric)?'));
+
