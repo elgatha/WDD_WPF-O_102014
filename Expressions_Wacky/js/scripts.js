@@ -20,3 +20,7 @@ favSweetTooth = favSweetTooth.split(',');
 if(favCuisine.length != 3 || favBeer.length != 3 || favSweetTooth.length != 3){
 	alert('Please enter three of each of the items separated by commas');
 }
+
+
+//create variables for fabulous fare
+var fareSuggestions = new Array();
