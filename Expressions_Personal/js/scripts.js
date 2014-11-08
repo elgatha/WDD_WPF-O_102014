@@ -8,3 +8,6 @@ WPF 144 - Assignment: Expressions_Personal
 //prompt for tow truck call - Roadside Assistance
 var costOfTow = parseInt(prompt('How much did it cost to tow Mini Cooper to Mechanic Shop at Oakland Park Blvd from Boca Raton?'));
 
+//prompt for hours mechanic works on the car - multiply by two so we can drop and replace
+var mechanicTime = parseInt(prompt('How long will it take for the Dale-the-Mechanic to drop the transmission and then replace it?'))*2;
+
