@@ -15,7 +15,7 @@ var mechanicTime = parseInt(prompt('How long will it take for the Dale-the-Mecha
 var costOfNewTransmission = parseInt(prompt('How much is the transmission going to cost?'));
 
 //labour hours
-var labourCostPerHour = 85;
+var labourCostPerHour = 45;
 
 //first calculate number of hours worked
 var totalHours = ((mechanicTime*costOfTow)/labourCostPerHour);
