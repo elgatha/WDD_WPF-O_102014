@@ -20,3 +20,6 @@ var labourCostPerHour = 45;
 //first calculate number of hours worked
 var totalHours = ((mechanicTime*costOfTow)/labourCostPerHour);
 
+//then use number of total hours to calculate cost
+var totalPriceForNewTransmission = totalHours*labourCostPerHour;
+
