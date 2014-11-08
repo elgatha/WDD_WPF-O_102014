@@ -43,3 +43,7 @@ for(var i = 0; i < 3; i++){
 
 //concatenate
 var catString = 'Chef Apple-Elgatha recommends the following pairings: ('+fareSuggestions[0]+'), ('+fareSuggestions[1]+'), ('+fareSuggestions[2]+')';
+
+
+//log
+console.log(catString)
