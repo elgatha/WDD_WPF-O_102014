@@ -27,7 +27,7 @@ var totalPriceForNewTransmission = totalHours*labourCostPerHour;
 
 var catString = 'Given your information it will cost you $'+totalPriceForNewTransmission+' to fix your Mini Cooper.  You should just buy a new car. Sorry :(';
 
-//print to console
+//print to console and hope there are no errors
 console.log(catString);
 
 (function(){
