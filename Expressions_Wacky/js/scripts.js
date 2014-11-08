@@ -9,3 +9,9 @@ var favCuisine = prompt('List three of your favourite types of cuisine, separate
 var favBeer = prompt('List three of your favourite types of beers, separated by commas');
 var favSweetTooth = prompt('List three of your favourite types of desserts for your Sweet-Tooth, separated by commas');
 
+
+//convert strings into arrays
+favCuisine = favCuisine.split(',');
+favBeer = favBeer.split(',');
+favSweetTooth = favSweetTooth.split(',');
+
