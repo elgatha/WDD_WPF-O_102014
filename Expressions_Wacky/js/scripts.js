@@ -31,10 +31,5 @@ for(var i = 0; i < 3; i++){
 	var randomCuisine = favCuisine[Math.floor(Math.random() * favCuisine.length)];
 	var randomBeer = favBeer[Math.floor(Math.random() * favBeer.length)];
 	var randomSweetTooth = favSweetTooth[Math.floor(Math.random() * favSweetTooth.length)];
-	//remove item from array so it doesn't randomly select identical element
-	favCuisine.splice(favCuisine.indexOf(randomCuisine), 1);
-	favBeer.splice(favBeer.indexOf(randomBeer), 1);
-	favSweetTooth.splice(favSweetTooth.indexOf(randomSweetTooth), 1);
-	//concatenate and push into an array
-	fareSuggestions.push(randomCuisine.trim()+' + '+randomBeer.trim()+' + '+randomSweetTooth.trim());
-}
+	
+    
