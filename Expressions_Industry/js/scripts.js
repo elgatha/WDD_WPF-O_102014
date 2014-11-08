@@ -19,3 +19,4 @@ var yearsWorked = parseInt(prompt('How many years did I spend actively as a Chef
 //get number of hours worked per week that you can barely stand
 var avgHoursPerWeek = parseInt(prompt('How many hours per week did you work (numeric)?'));
 
+//chinese proverb says - "you become awesome master after 10000 hours at 9999 you are still an idiot"
