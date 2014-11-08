@@ -7,8 +7,10 @@ WPF 144 - Assignment: Expressions_Personal
 
 //prompt for tow truck call - Roadside Assistance
 var costOfTow = parseInt(prompt('How much did it cost to tow Mini Cooper to Mechanic Shop at Oakland Park Blvd from Boca Raton?'));
+
 //prompt for hours mechanic works on the car - multiply by two so we can drop and replace
 var mechanicTime = parseInt(prompt('How long will it take for the mechanic to drop the transmission and then replace it?'))*2;
+
 //prompt for cost of transmission
 var costOfNewTransmission = parseInt(prompt('How much is the transmission?'));
 
@@ -17,6 +19,7 @@ var labourCostPerHour = 85;
 
 //first calculate number of hours worked
 var totalHours = ((mechanicTime*costOfTow)/labourCostPerHour);
+
 //then use number of total hours to calculate cost
 var totalPriceForNewTransmission = totalHours*labourCostPerHour;
 
