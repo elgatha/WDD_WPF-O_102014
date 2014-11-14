@@ -36,3 +36,9 @@ function validateValuePrompt(promptedText, errorNotice){
 	var promptor = parseInt(prompt(errorNotice+promptedText));
 	//if measurement is not received
 
+
+	if(isNaN(promptor)){
+		//call the function again with additional help
+		validateValuePrompt(promptText, 'Please provide numeric input for recipe measurement.  ');
+	//else no error
+	
