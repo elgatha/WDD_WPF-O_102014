@@ -17,3 +17,5 @@ var optionsArray = new Array('breathe', 'silence', 'peace', 'yoga');
 	//if defined type is 'zen Belief'
 	}else if(type == 'zenBelief'){
 		//build array for zen Belief
+var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', 'enjoying the beach');
+	//else type is not defined correctly
