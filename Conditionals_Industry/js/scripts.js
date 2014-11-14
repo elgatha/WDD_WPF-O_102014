@@ -124,3 +124,9 @@ var parentMeasurement = validateMeasurementPrompt('What is the measurement for t
 
 //get measurement value
 var targetMeasurementValue = validateMeasurementPrompt('What is the pixel width of the target element?');
+
+//get info for measurement
+var targetMeasurement = attributePrompt();
+
+
+	
