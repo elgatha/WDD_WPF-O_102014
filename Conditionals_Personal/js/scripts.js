@@ -68,4 +68,6 @@ if(totalHoursBlogging < 6){
 }else{
 	//WARNING!!! This is unhealthy and only crazy people spend the entire weekend strapped to a computer
 	advice = 'I have to learn to decompress. It is not a healthy lifestyle or sustainable practice in regards to work/life balance. The effort is admirable, but this is not good for my health. So, I am going to enroll in YOGA! ';
-	
+
+//ternary - check to see if the calculated variable is filled
+var conclusion = (advice != '') ? advice : 'Boom!!! You\'ve kicked butt and taken names today!';
