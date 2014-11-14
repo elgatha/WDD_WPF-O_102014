@@ -48,3 +48,8 @@ function validateValuePrompt(promptedText, errorNotice){
 	}
 }
 
+
+//validation for promptor expecting a yay or nay
+function validateBooleanPrompt(promptedText, errorNotice){
+//if error text is undefined set to empty string, otherwise use input
+	
