@@ -60,3 +60,15 @@ switch(opt1)
 {
 	//if value is breathe
 	case 'breathe':
+	//check value of opt2
+		if(opt2 == 'in a garden'){
+			//assign spirit animal
+			zenBelief = 'cherry blossoms';
+		}else if(opt2 == 'at the beach'){
+			zenBelief = 'grains of sand';
+		}else if(opt2 == 'expertly hidden'){
+			zenBelief = 'chameleon';
+		//else we've had a dev error
+		}else{
+			alert('dev error');
+		}
