@@ -133,3 +133,10 @@ var parentMeasurement = validateValuePrompt('What is the measurement for the ing
 
 //get measurement value
 var targetMeasurement = validateValuePrompt('What is the measurement target?');
+
+
+//get info for measurement
+var targetMeasurement = attributePrompt();
+
+//get value for Ingredients
+var targetIngredient = (targetMeasurementValue/parentMeasurement)*100;
