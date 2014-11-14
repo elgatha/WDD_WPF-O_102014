@@ -29,3 +29,8 @@ var bloggingHours = validatedPrompt('How many hours have I blogged today?');
 
 //sum up total hours blogging by assigning how many spent blogging on I Am Chef Apple
 var totalHoursBlogging = bloggingHours;
+
+//if I spent less than or equal to 3 hours blogging
+if(bloggingHours <= 3){
+	//alert me to spend more time blogging and record how I do
+	researchHours = validatedPrompt('Looks like I\'ve got some new content to add to my blog, how many hours do I have to spare this week to add the new content to my blog?');
