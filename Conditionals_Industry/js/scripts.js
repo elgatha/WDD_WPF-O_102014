@@ -79,11 +79,23 @@ function targetContextCalcPrompt(attribute, errorNotice){
 	if(attribute == 'measure'){
 		//measurement conversion function is context = result;
 
-		//this is a case of finding the exact figure
+		//this is a case of finding the exact numbers
 		var attributeMeasurementPercentage = (promptor/parentMeasurement)*100;
 		//return css string
-		return ' The exact figure: '+promptor+'sp '+attributeMeasurementPercentage+'%;';
-	//else if attribute is padding to have a viable inventory on hand
+		return ' The exact number: '+promptor+'sp '+attributeMeasurementPercentage+'%;';
+	//else if attribute is padded to have a viable inventory on hand
+
+	}else if(attribute == 'pad'){
+		//in the case of this padded context it is an important element
+		var attributeMeasurementPercentage = (promptor/targetExactMeasurements)*100;
+		//return css string
+		return ' pad: '+promptor+'sp '+attributeMeasurementPercentage+'%;';
+	//else there is an internal error
+	}else{
+		//alert the development team
+		alert('oy! - there is an error with the possible attributes of the  "measurement" and "pad"');
+	}
+}
 
 
 	
