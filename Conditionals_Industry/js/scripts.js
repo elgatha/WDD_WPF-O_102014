@@ -13,3 +13,14 @@ function validateSelectPrompt(promptedText, errorNotice){
 	errorText = (typeof errorText === 'undefined') ? '' : errorText;
 	//run prompt, combine error notice with prompt text if available
 	var promptor = prompt(errorText+promptedText);
+
+	//if string is empty
+	if(promptor == ''){
+		//call function again with extra help
+		validateSelectPrompt(promptText, 'Please provide the necessary information needed.  ');
+	//else no error
+	}else{
+		//return for storage
+		return promptor;
+	}
+}
