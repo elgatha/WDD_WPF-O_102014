@@ -110,7 +110,7 @@ function attributePrompt(){
 	//check if recipes has ingredients
 	var ingredientBoolean = validateBooleanPrompt('Does the recipe ingredient have an accurate measurement?');
 	//check the measurement of the ingredients
-	var measureBoolean = validateBooleanPrompt('Does the recipe have a measurement for the ingredient?');
+	var measurementBoolean = validateBooleanPrompt('Does the recipe have a measurement for the ingredient?');
 
 
 	//if ingredient value prompt, store and return if there is no ingredient 
