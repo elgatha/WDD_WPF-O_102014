@@ -84,3 +84,21 @@ switch(opt1)
 			alert('dev error');
 		}
 		break;
+
+		case 'release':
+		if(opt2 == 'expertly hidden'){
+			//assign spirit animal
+			zenBelief = 'eagle';
+		}else if(opt2 == 'at the beach'){
+			zenBelief = 'dolphin';
+		}else if(opt2 == 'expertly hidden'){
+			zenBelief = 'gecko';
+		}else{
+			alert('dev error');
+		}
+		break;
+	//no valid value for opt1
+	default:
+		//show dev error
+		alert('dev error');
+}
