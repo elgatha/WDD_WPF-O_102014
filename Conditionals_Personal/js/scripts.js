@@ -56,3 +56,5 @@ researchHours = validatedPrompt('You should do some reading on burning out. How 
 }
 //create a variable for advice
 var advice = '';
+//if total hours blogging is less than 6
+if(totalHoursBlogging < 6){
