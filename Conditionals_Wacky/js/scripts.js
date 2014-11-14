@@ -49,4 +49,8 @@ var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', '
 //first preference
 var opt1 = validatePreferencePrompt('When someone makes me angry, I tend to: "calmly breathe", "release negative chi", or "practice yoga"?', 'zenPeaceAction');
 
+//second preference
+var opt2 = validatePreferencePrompt('Would you feel more calmer: "in a garden", "at the beach", "at a yoga session"', 'zenBelief');
 
+//set up variable to pour decision into
+var zen = '';
