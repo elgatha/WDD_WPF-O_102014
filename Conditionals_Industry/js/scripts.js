@@ -83,4 +83,8 @@ function targetContextCalcPrompt(attribute, errorNotice){
 	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
 		//use our measurement validation function to get an accurate value for attribute
 	var promptor = validateValuePrompt('What is the ingredient measurement for '+attribute+'?  This is necessary in order to accurately define the ingredient costs.');
+	//if attribute is measure
+	if(attribute == 'measure'){
+		//measurement conversion function is context = result;
+
 	
