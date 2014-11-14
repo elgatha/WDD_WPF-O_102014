@@ -73,3 +73,5 @@ if(totalHoursBlogging < 6){
 var conclusion = (advice != '') ? advice : 'Boom!!! You\'ve kicked butt and taken names today!';
 
 console.log(conclusion);
+
+$(function()
