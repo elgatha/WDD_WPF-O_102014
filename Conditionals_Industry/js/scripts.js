@@ -114,9 +114,9 @@ function attributePrompt(){
 
 
 	//if ingredient value prompt, store and return if there is no ingredient 
-	ingredientValue = (ingredientBoolean) ? targetCalcPrompt('ingredient') : ' ingredient: none';
+	ingredientValue = (ingredientBoolean) ? targetCalculatePrompt('ingredient') : ' ingredient: none';
 	//if measurement value prompt, store and return
-	measurementValue = (measurementBoolean) ? targetCalcPrompt('measurement') : ' measurement: none';
+	measurementValue = (measurementBoolean) ? targetCalculatePrompt('measurement') : ' measurement: none';
 
 	//return concatenated css string 
 	return ingredientValue+measurementValue;
