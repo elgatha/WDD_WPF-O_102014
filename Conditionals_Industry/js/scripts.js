@@ -104,4 +104,13 @@ function attributePrompt(){
 	//check the measurement of the ingredients
 	var measureBoolean = validateBooleanPrompt('Does the recipe have a measurement for the ingredient?');
 
+	//if ingredient value prompt, store and return if there is no ingredient 
+	ingredientValue = (ingredientBoolean) ? targetCalcPrompt('ingredient') : ' ingredient: none';
+	//if measurement value prompt, store and return
+	measurementValue = (measurementBoolean) ? targetCalcPrompt('measurement') : ' measurement: none';
+
+	//return concatenated css string 
+	return ingredientValue+measurementValue;
+}
+
 	
