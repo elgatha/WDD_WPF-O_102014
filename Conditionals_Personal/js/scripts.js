@@ -34,3 +34,12 @@ var totalHoursBlogging = bloggingHours;
 if(bloggingHours <= 3){
 	//alert me to spend more time blogging and record how I do
 	researchHours = validatedPrompt('Looks like I\'ve got some new content to add to my blog, how many hours do I have to spare this week to add the new content to my blog?');
+
+	//add the research time to total hours blogging
+	totalHoursBlogging += researchHours;
+//if I spent more than 3 hours but less than or equal to 6 hours working
+}else if(bloggingHours > 3 && bloggingHours <= 6){
+	//congratulate, encourage to keep on going
+	researchHours = validatedPrompt('I say - if sleep is an option then success is not, in order to be successful there must be sacrifice!');
+	//add the recipe and ingredient research time to total hours blogging
+	totalHoursBlogging += researchHours;
