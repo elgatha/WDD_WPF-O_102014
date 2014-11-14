@@ -13,3 +13,5 @@ function validatePreferencePrompt(promptText, type, errorNotice){
 	//if defined type is 'zenPeaceAction'
 	if(type == 'zenPeaceAction'){
 		//build array for  zen actions
+var optionsArray = new Array('breathe', 'silence', 'peace', 'yoga');
+	//if defined type is 'zen Belief'
