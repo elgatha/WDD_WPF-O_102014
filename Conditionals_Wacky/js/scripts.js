@@ -40,3 +40,8 @@ var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', '
 	//else everything is gravy
 	
 }
+
+}else{
+		//return for storage
+		return promptor;
+	}
