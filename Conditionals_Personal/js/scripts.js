@@ -61,3 +61,7 @@ if(totalHoursBlogging < 6){
 //request more dedication for the next day
 	advice = 'I don\'t think I\'ve given all I\'ve got today.  But I need to have a break, then I can wake up tomorrow ready to conquer the world or at least the blog-o-sphere!';
 //if total hours blogging is greater than or equal to 4 but less than or equal to 6
+}else if(totalHoursBlogging >= 4 && totalHoursBlogging <= 6){
+	//congratulate myself with a pat on the back
+	advice = 'Continue working hard you will succeed at accomplishing your goals and dreams! You, go girl! Keep it up!';
+//if total hours worked is greater than 15
