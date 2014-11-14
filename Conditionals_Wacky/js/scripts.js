@@ -34,3 +34,9 @@ var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', '
 		validatePreferencePrompt(promptText, type, 'Please enter an option.  ');
 	//else if the user string wasn't found in the options array
 	
+	}else if(optionsArray.indexOf(promptor) == -1){
+		//call the function again with additional help text
+		validatePreferencePrompt(promptText, type, 'Please choose from the options listed.  Check spelling, use lowercase, and don\'t add quotes.  ');
+	//else everything is gravy
+	
+}
