@@ -29,4 +29,8 @@ var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', '
 
 	var promptor = prompt(errorNotice+promptText);
 	//if the user didn't type anything
+	if(promptor == ''){
+		//call the function again with additional help text
+		validatePreferencePrompt(promptText, type, 'Please enter an option.  ');
+	//else if the user string wasn't found in the options array
 	
