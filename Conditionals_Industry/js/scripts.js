@@ -123,7 +123,7 @@ var targetIngredientTechnique = validateSelectPrompt('Please include the ingredi
 var parentMeasurement = validateValuePrompt('What is the measurement for the ingredient?');
 
 //get measurement value
-var targetMeasurementValue = validateValuePrompt('What is the pixel width of the target element?');
+var targetMeasurement = validateValuePrompt('What is the pixel width of the target element?');
 
 //get info for measurement
 var targetMeasurement = attributePrompt();
