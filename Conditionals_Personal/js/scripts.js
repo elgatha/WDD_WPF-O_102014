@@ -13,3 +13,13 @@ function validatedPrompt(promptText, errorNotice){
 	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
 	//run the prompt, combine the error text with prompt text if present
 	var promptor = parseInt(prompt(errorNotice+promptText));
+	//if the prompt returns an empty string
+	if(promptor == ''){
+		//rerun function with error text
+		validatedPrompt(promptText, 'Do not forget to add some kind of numeric information!  ');
+	//if prompt doesn't return number it should with parseInt
+	}else{
+		//return for storage
+		return promptor;
+	}
+}
