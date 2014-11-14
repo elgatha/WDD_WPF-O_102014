@@ -9,3 +9,5 @@ Conditionals_Personal
 
 //prompt validation function
 function validatedPrompt(promptText, errorNotice){
+	//if the error is undefined make the empty string else use the input
+	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
