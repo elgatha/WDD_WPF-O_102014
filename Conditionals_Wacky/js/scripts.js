@@ -72,3 +72,15 @@ switch(opt1)
 		}else{
 			alert('dev error');
 		}
+	break;
+	case 'relax':
+		if(opt2 == 'at the beach'){
+			zenBelief = 'dolphin';
+		}else if(opt2 == 'in a garden'){
+			zenBelief = 'hummingbird';
+		}else if(opt2 == 'expertly hidden'){
+			zenBelief = 'octopus';
+		}else{
+			alert('dev error');
+		}
+		break;
