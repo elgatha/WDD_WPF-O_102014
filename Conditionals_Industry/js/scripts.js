@@ -122,3 +122,5 @@ var targetIngredientTechnique = validateIngredientPrompt('Please include the ing
 //get ingredient measurement
 var parentMeasurement = validateMeasurementPrompt('What is the measurement for the ingredient?');
 
+//get measurement value
+var targetMeasurementValue = validateMeasurementPrompt('What is the pixel width of the target element?');
