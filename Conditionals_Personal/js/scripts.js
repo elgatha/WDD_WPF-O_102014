@@ -43,3 +43,14 @@ if(bloggingHours <= 3){
 	researchHours = validatedPrompt('I say - if sleep is an option then success is not, in order to be successful there must be sacrifice!');
 	//add the recipe and ingredient research time to total hours blogging
 	totalHoursBlogging += researchHours;
+	//if I spent more than 5 but less than or equal to 8 hours blogging
+}else if(bloggingHours > 5 && bloggingHours <= 8){
+	//will I be able to blog after my meeting this after-noon with HuffPost
+	bloggingHours = validatedPrompt('I have never met anyone like you before. You have such an incredible work ethic?  How many hours  do you have left until you are done working on your blog and ready to launch?');
+	//add the recipe and ingredient research time to total hours blogging
+	totalHoursBlogging += researchHours;
+//if I spend more than 12 hours working on my blog
+researchHours = validatedPrompt('You should do some reading on burning out. How many more hours am I going to work?');
+	//add the recipe and ingredient research time to total hours blogging
+	totalHoursBlogging += researchHours;
+}
