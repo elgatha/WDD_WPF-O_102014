@@ -71,3 +71,5 @@ if(totalHoursBlogging < 6){
 
 //ternary - check to see if the calculated variable is filled
 var conclusion = (advice != '') ? advice : 'Boom!!! You\'ve kicked butt and taken names today!';
+
+console.log(conclusion);
