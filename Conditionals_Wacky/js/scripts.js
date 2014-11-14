@@ -54,3 +54,9 @@ var opt2 = validatePreferencePrompt('Would you feel more calmer: "in a garden", 
 
 //set up variable to pour decision into
 var zen = '';
+
+//check value of opt1
+switch(opt1)
+{
+	//if value is breathe
+	case 'breathe':
