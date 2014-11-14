@@ -73,5 +73,17 @@ function validateBooleanPrompt(promptText, errorNotice){
 function targetContextCalcPrompt(attribute, errorNotice){
 	//if error notice is undefined set to empty string
 	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
+		//use our measurement validation function to get an accurate value for attribute
+	var promptor = validateValuePrompt('What is the ingredient measurement for '+attribute+'?  This is necessary in order to accurately define the ingredient costs.');
+	//if attribute is measure
+	if(attribute == 'measure'){
+		//measurement conversion function is context = result;
 
-		
+		//this is a case of finding the exact figure
+		var attributeMeasurementPercentage = (promptor/parentMeasurement)*100;
+		//return css string
+		return ' The exact figure: '+promptor+'sp '+attributeMeasurementPercentage+'%;';
+	//else if attribute is padding to have a viable inventory on hand
+
+
+	
