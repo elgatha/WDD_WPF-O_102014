@@ -127,3 +127,9 @@ var parentIngredientName = validateSelectPrompt('Please include your ingredient 
 
 //get target ingredient instruction
 var targetIngredientTechnique = validateSelectPrompt('Please include the ingredient technique ');
+
+//get ingredient measurement
+var parentMeasurement = validateValuePrompt('What is the measurement for the ingredient?');
+
+//get measurement value
+var targetMeasurement = validateValuePrompt('What is the measurement target?');
