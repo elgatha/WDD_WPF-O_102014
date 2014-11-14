@@ -31,3 +31,8 @@ function validateValuePrompt(promptedText, errorNotice){
 	//if error notice is not clearly defined set to an empty string
 	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
 
+
+//run promptor, combining error notice with prompt text
+	var promptor = parseInt(prompt(errorNotice+promptedText));
+	//if measurement is not received
+
