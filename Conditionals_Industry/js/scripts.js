@@ -131,4 +131,7 @@ var targetMeasurement = attributePrompt();
 //get value for Ingredients
 var targetIngredient = (targetMeasurementValue/parentMeasurement)*100;
 
+//concatenate 
+var calculateRecipe = parentIngredientName+' '+targetIngredientTechnique+'{measurement:'+targetMeasurement+'%;'+targetIngredient+'}';
+
 
