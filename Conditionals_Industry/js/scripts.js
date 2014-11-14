@@ -29,3 +29,19 @@ function validateSelectPrompt(promptedText, errorNotice){
 function validateValuePrompt(promptedText, errorNotice){
 	//if error notice is not clearly defined set to an empty string
 	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
+
+//run promptor, combining error notice with prompt text
+	var promptor = parseInt(prompt(errorText+promptText));
+	//if measurement is not received
+	if(isNaN(promptor)){
+		//call the function again with additional help
+		validateValuePrompt(promptText, 'Please provide numeric input for recipe measurement.  ');
+	//else no error
+	}else{
+		//return for storage
+		return promptor;
+	}
+}
+
+//validation for promptor expecting a yay or nay
+function validateBooleanPrompt(promptText, errorNotice){
