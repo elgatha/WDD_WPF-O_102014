@@ -45,3 +45,8 @@ var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', '
 		//return for storage
 		return promptor;
 	}
+
+//first preference
+var opt1 = validatePreferencePrompt('When someone makes me angry, I tend to: "calmly breathe", "release negative chi", or "practice yoga"?', 'zenPeaceAction');
+
+
