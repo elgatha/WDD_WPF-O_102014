@@ -128,5 +128,7 @@ var targetMeasurementValue = validateMeasurementPrompt('What is the pixel width 
 //get info for measurement
 var targetMeasurement = attributePrompt();
 
+//get value for Ingredients
+var targetIngredient = (targetMeasurementValue/parentMeasurement)*100;
 
-	
+
