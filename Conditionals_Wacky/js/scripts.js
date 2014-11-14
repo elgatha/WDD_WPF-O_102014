@@ -19,3 +19,8 @@ var optionsArray = new Array('breathe', 'silence', 'peace', 'yoga');
 		//build array for zen Belief
 var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', 'enjoying the beach');
 	//else type is not defined correctly
+
+	}else{
+		//show dev error
+		alert('The "type" of options are: "zenPeaceAction" and "zenBelief"');
+	}
