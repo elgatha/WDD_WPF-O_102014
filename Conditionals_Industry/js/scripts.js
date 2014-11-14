@@ -114,16 +114,16 @@ function attributePrompt(){
 }
 
 //get parent ingredient name
-var parentIngredientName = validateIngredientPrompt('Please include your ingredient name.');
+var parentIngredientName = validateSelectPrompt('Please include your ingredient name.');
 
 //get target ingredient instruction
-var targetIngredientTechnique = validateIngredientPrompt('Please include the ingredient technique ');
+var targetIngredientTechnique = validateSelectPrompt('Please include the ingredient technique ');
 
 //get ingredient measurement
-var parentMeasurement = validateMeasurementPrompt('What is the measurement for the ingredient?');
+var parentMeasurement = validateValuePrompt('What is the measurement for the ingredient?');
 
 //get measurement value
-var targetMeasurementValue = validateMeasurementPrompt('What is the pixel width of the target element?');
+var targetMeasurementValue = validateValuePrompt('What is the pixel width of the target element?');
 
 //get info for measurement
 var targetMeasurement = attributePrompt();
