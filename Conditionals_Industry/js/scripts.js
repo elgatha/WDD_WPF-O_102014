@@ -121,3 +121,9 @@ function attributePrompt(){
 	//return concatenated css string 
 	return ingredientValue+measurementValue;
 }
+
+//get parent ingredient name
+var parentIngredientName = validateSelectPrompt('Please include your ingredient name.');
+
+//get target ingredient instruction
+var targetIngredientTechnique = validateSelectPrompt('Please include the ingredient technique ');
