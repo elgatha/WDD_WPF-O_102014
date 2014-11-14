@@ -74,4 +74,3 @@ function validateBooleanPrompt(promptedText, errorNotice){
 		validateBooleanPrompt(promptedText, 'Please reply "yay" or "nay", so that we can proceed with the task at hand.  ');
 	}
 }
-
