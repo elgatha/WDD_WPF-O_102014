@@ -49,6 +49,23 @@ function validateBooleanPrompt(promptText, errorNotice){
 	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
 	//run the promptor, combine the error notice with prompt text
 	var promptor = prompt(errorNotice+promptText);
-	//if empty string
+	//if there is an empty string
 	if(promptor == ''){
+		//call the function again
+		validateBooleanPrompt(promptText, 'Please provide some additional information.  ');
+	//else if the user replies yay or true
+	}else if(promptor == 'yay' || promptor == 'true'){
+		//return for storage
+		return true;
+	//else if user replies nay or false
+	}else if(promptor == 'nay' || promptor == 'false'){
+		//return for storage
+		return false;
+	//else any other value
+	}else{
+		//call the function again with additional help text
+		validateBooleanPrompt(promptText, 'Please reply "yay" or "nay", so that we can proceed with the task at hand.  ');
+	}
+}
+
 		
