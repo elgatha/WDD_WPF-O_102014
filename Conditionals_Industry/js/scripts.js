@@ -47,3 +47,8 @@ function validateValuePrompt(promptedText, errorNotice){
 function validateBooleanPrompt(promptText, errorNotice){
 //if error text is undefined set to empty string, otherwise use input
 	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
+	//run the promptor, combine the error notice with prompt text
+	var promptor = prompt(errorNotice+promptText);
+	//if empty string
+	if(promptor == ''){
+		
