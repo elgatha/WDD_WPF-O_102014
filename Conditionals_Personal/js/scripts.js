@@ -1,9 +1,8 @@
-/*
-Elgatha Lee 
-WPF 144 - Assignment: 
-Conditionals_Personal 
-11/13/2014
-*/
+//JavaScript
+//Elgatha Lee
+//WPF 144 - Assignment: 
+//Conditionals_Personal
+//11/13/2014
 
 
 //problem: Have I done enough blogging and promotion for my project...
@@ -75,6 +74,6 @@ var conclusion = (advice != '') ? advice : 'Boom!!! You\'ve kicked butt and take
 
 console.log(conclusion);
 
-$(function(){
+(function(){
 	$('body').append('<p>'+conclusion+'</p>');
 });
