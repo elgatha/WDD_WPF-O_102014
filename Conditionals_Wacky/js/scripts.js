@@ -27,25 +27,22 @@ var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', '
 	console.log(optionsArray);
 	//run the prompt, combining error text with prompt text if available
 
-	var promptor = prompt(errorNotice+promptText);
+	var prompter = prompt(errorNotice+promptText);
 	//if the user didn't type anything
-	if(promptor == ''){
+	if(prompter == ''){
 		//call the function again with additional help text
 		validatePreferencePrompt(promptText, type, 'Please enter an option.  ');
 	//else if the user string wasn't found in the options array
 	
-	}else if(optionsArray.indexOf(promptor) == -1){
+	}else if(optionsArray.indexOf(prompter) == -1){
 		//call the function again with additional help text
 		validatePreferencePrompt(promptText, type, 'Please choose from the options listed.  Check spelling, use lowercase, and don\'t add quotes.  ');
 	//else everything is sweet
-	
-}
-
 }else{
 		//return for storage
-		return promptor;
+		return prompter;
 	}
-
+}
 //first preference
 var opt1 = validatePreferencePrompt('When someone makes me angry, I tend to: "calmly breathe", "release negative chi", or "practice yoga"?', 'zenPeaceAction');
 
