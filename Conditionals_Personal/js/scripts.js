@@ -23,3 +23,9 @@ function validatedPrompt(promptText, errorNotice){
 		return promptor;
 	}
 }
+
+//prompt for how many hours I've blogged
+var bloggingHours = validatedPrompt('How many hours have I blogged today?');
+
+//sum up total hours blogging by assigning how many spent blogging on I Am Chef Apple
+var totalHoursBlogging = bloggingHours;
