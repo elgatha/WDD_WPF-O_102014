@@ -42,3 +42,9 @@ function validateValuePrompt(promptedText, errorNotice){
 		validateValuePrompt(promptText, 'Please provide numeric input for recipe measurement.  ');
 	//else no error
 	
+	}else{
+		//return for storage
+		return promptor;
+	}
+}
+
