@@ -54,3 +54,5 @@ researchHours = validatedPrompt('You should do some reading on burning out. How 
 	//add the recipe and ingredient research time to total hours blogging
 	totalHoursBlogging += researchHours;
 }
+//create a variable for advice
+var advice = '';
