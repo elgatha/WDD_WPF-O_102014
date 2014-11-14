@@ -68,4 +68,10 @@ function validateBooleanPrompt(promptText, errorNotice){
 	}
 }
 
+
+//calcVal function prompting ingredient measurement values per - css string return
+function targetContextCalcPrompt(attribute, errorNotice){
+	//if error notice is undefined set to empty string
+	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
+
 		
