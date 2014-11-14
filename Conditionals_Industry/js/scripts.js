@@ -149,3 +149,6 @@ var calculateRecipe = parentIngredientName+' '+targetIngredientTechnique+'{measu
 //log
 console.log(calculateRecipe);
 
+$(function(){
+	$('body').append('<p>The new recipe is:  '+calculateRecipe+'</p>');
+});
