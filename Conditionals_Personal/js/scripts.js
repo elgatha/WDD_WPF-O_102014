@@ -74,4 +74,6 @@ var conclusion = (advice != '') ? advice : 'Boom!!! You\'ve kicked butt and take
 
 console.log(conclusion);
 
-$(function()
+$(function(){
+	$('body').append('<p>'+conclusion+'</p>');
+});
