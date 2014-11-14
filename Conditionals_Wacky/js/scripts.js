@@ -102,3 +102,7 @@ switch(opt1)
 		//show dev error
 		alert('dev error');
 }
+
+//check if we've successfully chosen a zen belief, concatenating a conclusion string 
+var conclusion = (zenBelief != '') ? 'Your Zen Belief is the '+zenBelief+'.' : 'Your Zen Moment is the being at the beach - because you seek peace around you.';
+
