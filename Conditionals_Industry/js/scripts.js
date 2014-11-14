@@ -146,3 +146,6 @@ var targetIngredient = (targetMeasurementValue/parentMeasurement)*100;
 var calculateRecipe = parentIngredientName+' '+targetIngredientTechnique+'{measurement:'+targetMeasurement+'%;'+targetIngredient+'}';
 
 
+//log
+console.log(calculateRecipe);
+
