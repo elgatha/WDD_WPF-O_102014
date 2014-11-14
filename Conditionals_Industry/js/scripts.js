@@ -74,3 +74,13 @@ function validateBooleanPrompt(promptedText, errorNotice){
 		validateBooleanPrompt(promptedText, 'Please reply "yay" or "nay", so that we can proceed with the task at hand.  ');
 	}
 }
+
+
+
+//calcVal function prompting ingredient measurement values per - css string return
+function targetContextCalcPrompt(attribute, errorNotice){
+	//if error notice is undefined set to empty string
+	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
+		//use our measurement validation function to get an accurate value for attribute
+	var promptor = validateValuePrompt('What is the ingredient measurement for '+attribute+'?  This is necessary in order to accurately define the ingredient costs.');
+	
