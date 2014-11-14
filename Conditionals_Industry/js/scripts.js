@@ -113,6 +113,12 @@ function attributePrompt(){
 	return ingredientValue+measurementValue;
 }
 
-//get ingredient name
-var parentSelectorName = validateSelectorPrompt('Please include your ingredient name.');
+//get parent ingredient name
+var parentIngredientName = validateIngredientPrompt('Please include your ingredient name.');
+
+//get target ingredient instruction
+var targetIngredientTechnique = validateIngredientPrompt('Please include the ingredient technique ');
+
+//get ingredient measurement
+var parentMeasurement = validateMeasurementPrompt('What is the measurement for the ingredient?');
 
