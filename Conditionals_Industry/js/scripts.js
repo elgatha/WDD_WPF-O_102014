@@ -24,3 +24,8 @@ function validateSelectPrompt(promptedText, errorNotice){
 		return promptor;
 	}
 }
+
+//validation for prompt expecting numeric value
+function validateValuePrompt(promptedText, errorNotice){
+	//if error notice is not clearly defined set to an empty string
+	errorNotice = (typeof errorNotice === 'undefined') ? '' : errorNotice;
