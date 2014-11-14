@@ -65,3 +65,7 @@ if(totalHoursBlogging < 6){
 	//congratulate myself with a pat on the back
 	advice = 'Continue working hard you will succeed at accomplishing your goals and dreams! You, go girl! Keep it up!';
 //if total hours worked is greater than 15
+}else{
+	//WARNING!!! This is unhealthy and only crazy people spend the entire weekend strapped to a computer
+	advice = 'I have to learn to decompress. It is not a healthy lifestyle or sustainable practice in regards to work/life balance. The effort is admirable, but this is not good for my health. So, I am going to enroll in YOGA! ';
+	
