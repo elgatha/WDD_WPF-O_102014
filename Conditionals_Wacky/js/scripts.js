@@ -24,3 +24,5 @@ var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', '
 		//show dev error
 		alert('The "type" of options are: "zenPeaceAction" and "zenBelief"');
 	}
+	console.log(optionsArray);
+	//run the prompt, combining error text with prompt text if available
