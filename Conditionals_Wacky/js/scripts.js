@@ -26,3 +26,7 @@ var optionsArray = new Array('in a buddhists garden', 'a session of hot yoga', '
 	}
 	console.log(optionsArray);
 	//run the prompt, combining error text with prompt text if available
+
+	var promptor = prompt(errorNotice+promptText);
+	//if the user didn't type anything
+	
