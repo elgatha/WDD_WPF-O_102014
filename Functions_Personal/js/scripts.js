@@ -98,3 +98,17 @@ function getCategoryName(promptedText, errorType){
 	errorType = (typeof errorType == 'undefined') ? '' : errorType;
 	//grab the user input from prompt
 	
+	var categoryName = prompt(errorType+promptedText);
+	//if empty string
+	if(categoryName == ''){
+		//call again with explanation
+		getCategoryName(promptType, 'Please provide some input.  ');
+	//else 
+	}else{
+		//return 
+		return categoryName;
+	}
+}
+
+
+//returns a string of file paths added to array
