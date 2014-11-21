@@ -33,3 +33,5 @@ var favoriteNumber = numberPrompt('What\'s my absolute favorite number?');
 //prompt for first number that pops up
 var firstNumber = numberPrompt('What\'s the first number that jumps into my head?');
 
+//math wonders
+var luckyNumber 
