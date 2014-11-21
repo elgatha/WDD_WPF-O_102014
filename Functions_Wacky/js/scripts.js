@@ -36,3 +36,5 @@ var firstNumber = numberPrompt('What\'s the first number that jumps into my head
 //math wonders
 var luckyNumber  Math.floor((birthDate*favoriteNumber)/firstNumber);
 
+//log in console
+console.log
