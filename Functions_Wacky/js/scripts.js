@@ -40,4 +40,5 @@ var luckyNumber  Math.floor((birthDate*favoriteNumber)/firstNumber);
 console.log('My special number is:  '+luckyNumber.toString());
 
 (function(){
-	$('body').append('<p>My 
+	$('body').append('<p>My special number is:  '+luckyNumber.toString()+'</p>');
+});
