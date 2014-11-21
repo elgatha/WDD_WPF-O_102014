@@ -19,5 +19,10 @@ function promptForCode(promptedText, errorInfo){
 		//split into an array 
 		var relevantType = suppliedTypestring.split(',');
 	}
+	//if not there are not enough items
+	if(relevantType.length < 6){
+		//prompt again with explanation
+		promptForCode(promptedText, 'Please provide at least 6 letters.  ');
+	//else return the array of relevant Type
 	
 	
