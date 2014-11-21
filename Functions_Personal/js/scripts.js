@@ -23,3 +23,10 @@ function getRecipePathPrompt(promptedText, errorType){
 	errorType = (typeof errorType == 'undefined') ? '' : errorType;
 	//check to see if recipes have been added
 	addedRecipesString = (addedRecipes.length > 0) ? '\n\n'+addedRecipes.toString() : '';
+
+	//prompt user for file path(s)
+	var recipePath = prompt(errorType+promptedText+addedRecipesString);
+	//if empty string
+	if(recipePath == ''){
+		//prompt again with explanation
+		getRecipePathPrompt(promptedText, 'Please provide the recipes.  ');
