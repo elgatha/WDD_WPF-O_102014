@@ -42,3 +42,13 @@ function getRecipePathPrompt(promptedText, errorType){
 	}
 }
 
+//prompt user if they want to continue
+function continuePrompt(promptedText, errorType){
+	//fallback for no error Type
+	errorType = (typeof errorType == 'undefined') ? '' : errorType;
+	//create an array of possible answers
+	var possibleAnswers = ['yes','no','true','false'];
+	//store user input
+	var reply = prompt(errorType+promptedText).trim();
+
+	
