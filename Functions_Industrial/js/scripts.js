@@ -24,5 +24,10 @@ function promptForCode(promptedText, errorInfo){
 		//prompt again with explanation
 		promptForCode(promptedText, 'Please provide at least 6 letters.  ');
 	//else return the array of relevant Type
-	
+	}else{
+		//return for capture
+		return relevantType;
+	}
+}
+
 	
