@@ -35,3 +35,10 @@ function getRecipePathPrompt(promptedText, errorType){
 		//push the recipe path(s) to array
 		addedRecipes.push(recipePath);
 	}
+	//ask if to continue adding recipes
+	if(continuePrompt('Do you have more recipes to file?')){
+		//if so, start the file path prompt over
+		getRecipePathPrompt(promptedText);
+	}
+}
+
