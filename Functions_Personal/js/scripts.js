@@ -131,3 +131,5 @@ var remoteName = getRemoteName('Do you want to send your recipe to a specific ca
 //store the Category name
 var categoryName = getCategoryName('Do you want to push your recipe to a specific Category?  The default Category is "delicious" without quotes.');
 //concatinate command
+var command = 'recipe '+addedRecipes2String()+'; recipe file "delish"; recipe file '+remoteName.trim()+' '+categoryName.trim();
+//log in console
