@@ -30,4 +30,6 @@ function promptForCode(promptedText, errorInfo){
 	}
 }
 
-	
+function numberPrompt(promptedText, errorInfo){
+	//fallback for no error Info
+	errorInfo = (typeof errorInfo == 'undefined') ? '' : errorInfo;
