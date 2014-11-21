@@ -92,3 +92,9 @@ function getRemoteName(promptedText, errorType){
 }
 
 
+//get the category name
+function getCategoryName(promptedText, errorType){
+	//fallback for no error Type
+	errorType = (typeof errorType == 'undefined') ? '' : errorType;
+	//grab the user input from prompt
+	
