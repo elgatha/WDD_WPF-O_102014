@@ -96,3 +96,8 @@ var code = {
 //run our word array prompt function
 var CodeArray = promptForCode('In a comma separated list, provide a list of things that have relevance to you?  Please provide at least six.');
 
+//run our number prompt function
+var favoriteNumber = numberPrompt('What\'s your favorite number?');
+
+//log the simple code by passing the inputs as parameters
+console.log('This is a Simple Code: '+code.simple(CodeArray));
