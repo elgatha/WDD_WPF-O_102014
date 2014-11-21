@@ -104,3 +104,4 @@ console.log('This is a Simple Code: '+code.simple(CodeArray));
 //log the complicated code 
 console.log('This is a Super Duper code: '+code.superDuper(CodeArray,favoriteNumber));
 
+(function(){
