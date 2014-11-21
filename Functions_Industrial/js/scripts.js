@@ -60,4 +60,14 @@ var code = {
 			//randomly sort the input array 
 			wordArray.sort(function(){return 0.5 - Math.random()});
 			//grab 6 pieces
+			for(var i = 0; i < 6; i++){
+				//use from array so we codes are not duplicated
+				var codePiece = wordArray.pop();
+				//store in object trimming whitespace
+				this.Typestring += codePiece.trim();
+			}
+		}
+		//return a random word string
+		return this.Typestring;
+	},
 	
