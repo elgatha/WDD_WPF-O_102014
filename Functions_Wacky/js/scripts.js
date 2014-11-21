@@ -23,3 +23,6 @@ function numberPrompt(promptedText, errorType){
 		return theNumber;
 	}
 }
+
+//prompt for birthday
+var birthDate = numberPrompt('This is my birthdate?  
