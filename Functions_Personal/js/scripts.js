@@ -133,3 +133,5 @@ var categoryName = getCategoryName('Do you want to push your recipe to a specifi
 //concatinate command
 var command = 'recipe '+addedRecipes2String()+'; recipe file "delish"; recipe file '+remoteName.trim()+' '+categoryName.trim();
 //log in console
+var command = 'recipe '+addedRecipes2String()+'; recipe category "delicious"; category '+remoteName.trim()+' '+categoryName.trim();
+//log in console
