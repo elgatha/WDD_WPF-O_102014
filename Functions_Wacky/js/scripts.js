@@ -27,3 +27,4 @@ function numberPrompt(promptedText, errorType){
 //prompt for birthday
 var birthDate = numberPrompt('This is my birthdate?  Don\'tforget to format in DDMMYYYY without the separators.');
 
+//prompt for favorite number
