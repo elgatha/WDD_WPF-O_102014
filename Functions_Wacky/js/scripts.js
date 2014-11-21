@@ -11,4 +11,11 @@ function numberPrompt(promptedText, errorType){
 	errorType = (typeof errorType == 'undefined') ? '' : errorType;
 
 	//get the correct number
-	var theNumber = parseInt(prompt(errorType+promptedText))
+	var theNumber = parseInt(prompt(errorType+promptedText));
+
+	//if there is no number
+	if(isNaN(theNumber)){
+		//prompt again with an explanation
+		numberPrompt(promptedText, 'Please provide numeric input.  ');
+	//else 
+	
