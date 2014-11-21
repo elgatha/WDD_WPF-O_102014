@@ -127,3 +127,5 @@ function addedRecipes2String(){
 //run function to pour Recipes into file array
 getRecipePathPrompt('Please list the recipe(s) you want to file.  You can add multiple multiple recipes by separating with a space, or you can select to add another after you submit this one.  Entering a "." without quotes will add all recipes to the file.');
 //store the remote name
+var remoteName = getRemoteName('Do you want to send your recipe to a specific category?  If you don\'t know, reply "base" without quotes.');
+//store the Category name
