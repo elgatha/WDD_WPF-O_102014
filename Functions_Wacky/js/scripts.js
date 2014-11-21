@@ -34,4 +34,4 @@ var favoriteNumber = numberPrompt('What\'s my absolute favorite number?');
 var firstNumber = numberPrompt('What\'s the first number that jumps into my head?');
 
 //math wonders
-var luckyNumber 
+var luckyNumber  Math.floor((birthDate*favoriteNumber)
