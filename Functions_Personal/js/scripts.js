@@ -124,3 +124,6 @@ function addedRecipes2String(){
 	return addedRecipesString;
 }
 
+//run function to pour Recipes into file array
+getRecipePathPrompt('Please list the recipe(s) you want to file.  You can add multiple multiple recipes by separating with a space, or you can select to add another after you submit this one.  Entering a "." without quotes will add all recipes to the file.');
+//store the remote name
