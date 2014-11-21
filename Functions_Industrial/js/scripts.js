@@ -101,3 +101,6 @@ var favoriteNumber = numberPrompt('What\'s your favorite number?');
 
 //log the simple code by passing the inputs as parameters
 console.log('This is a Simple Code: '+code.simple(CodeArray));
+//log the complicated code 
+console.log('This is a Super Duper code: '+code.superDuper(CodeArray,favoriteNumber));
+
