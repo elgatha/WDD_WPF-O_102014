@@ -18,4 +18,5 @@ function numberPrompt(promptedText, errorType){
 		//prompt again with an explanation
 		numberPrompt(promptedText, 'Please provide numeric input.  ');
 	//else 
+	}else{
 	
