@@ -40,5 +40,12 @@ function numberPrompt(promptedText, errorInfo){
 	if(isNaN(favoriteNumber)){
 		//prompt again with explanation
 		numberPrompt(promptedText, 'Please provide a favorite number.  ');
+	//else return the number
+	}else{
+		//return for storage
+		return favoriteNumber;
+	}
+}
+
 
 	
