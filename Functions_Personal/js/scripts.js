@@ -59,23 +59,4 @@ function continuePrompt(promptedText, errorType){
 	}else if(possibleAnswers.indexOf(reply) == -1){
 		//call prompt again with explanation why
 		continuePrompt(promptedText, 'Please reply "yes" or "no"');
-	//else everything is good
-	}else{
-		//if yes
-		if(reply == 'yes' || reply == 'true'){
-			//return true
-			return true;
-		//else
-		}else{
-			//return false
-			return false;
-		}
-	}
-}
-
-//get the remote's name
-function getRemoteName(promptedText, errorType){
-	//fallback for no error Type
-	errorType = (typeof errorType == 'undefined') ? '' : errorType;
-	//grab the user input after prompt
-	var remoteName = prompt(errorType+promptedText);
+	
