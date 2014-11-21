@@ -47,5 +47,12 @@ function numberPrompt(promptedText, errorInfo){
 	}
 }
 
+//create code
+var code = {
+	//create empty string for storage later
+	"Typestring": '',
+	//create array of special characters
+	"randomSpecialChar": ['!','*','%','$'],
+	//function to return simple password
 
 	
