@@ -11,4 +11,4 @@ function numberPrompt(promptedText, errorType){
 	errorType = (typeof errorType == 'undefined') ? '' : errorType;
 
 	//get the correct number
-	
+	var theNumber = parseInt(prompt(errorType+promptedText))
