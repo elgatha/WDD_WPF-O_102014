@@ -30,3 +30,8 @@ function getRecipePathPrompt(promptedText, errorType){
 	if(recipePath == ''){
 		//prompt again with explanation
 		getRecipePathPrompt(promptedText, 'Please provide the recipes.  ');
+	//else
+	}else{
+		//push the recipe path(s) to array
+		addedRecipes.push(recipePath);
+	}
