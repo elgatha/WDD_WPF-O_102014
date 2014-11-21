@@ -36,3 +36,9 @@ function numberPrompt(promptedText, errorInfo){
 	//prompt for input
 	var favoriteNumber = parseInt(prompt(errorInfo+promptedText));
 
+	//if no there isn't a number available
+	if(isNaN(favoriteNumber)){
+		//prompt again with explanation
+		numberPrompt(promptedText, 'Please provide a favorite number.  ');
+
+	
