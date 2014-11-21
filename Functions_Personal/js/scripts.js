@@ -112,3 +112,15 @@ function getCategoryName(promptedText, errorType){
 
 
 //returns a string of file paths added to array
+function addedRecipes2String(){
+	//prep a string for concatination
+	var addedRecipesString = '';
+	//for every item in the array
+	for(var i = 0; i < addedRecipes.length; i++){
+		//trim the file path(s) and add a space at the end to separate
+		addedRecipesString += addedRecipes[i].trim()+' ';
+	}
+	//return for storage
+	return addedRecipesString;
+}
+
