@@ -37,4 +37,4 @@ var firstNumber = numberPrompt('What\'s the first number that jumps into my head
 var luckyNumber  Math.floor((birthDate*favoriteNumber)/firstNumber);
 
 //log in console
-console.log
+console.log('My special number is:  
