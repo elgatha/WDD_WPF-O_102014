@@ -39,3 +39,4 @@ var luckyNumber  Math.floor((birthDate*favoriteNumber)/firstNumber);
 //log in console
 console.log('My special number is:  '+luckyNumber.toString());
 
+(function(
