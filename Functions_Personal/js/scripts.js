@@ -135,3 +135,4 @@ var command = 'recipe '+addedRecipes2String()+'; recipe file "delish"; recipe fi
 //log in console
 var command = 'recipe '+addedRecipes2String()+'; recipe category "delicious"; category '+remoteName.trim()+' '+categoryName.trim();
 //log in console
+console.log('recipe(s) are:  '+command)
