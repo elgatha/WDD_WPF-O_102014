@@ -54,5 +54,10 @@ var code = {
 	//create array of special characters
 	"randomSpecialChar": ['!','*','%','$'],
 	//function to return simple password
-
+	simple: function(wordArray){
+		//if there is an already generated random string
+		if(this.Typestring == ''){
+			//randomly sort the input array 
+			wordArray.sort(function(){return 0.5 - Math.random()});
+			//grab 6 pieces
 	
