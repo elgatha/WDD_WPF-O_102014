@@ -51,4 +51,13 @@ function continuePrompt(promptedText, errorType){
 	//store user input
 	var reply = prompt(errorType+promptedText).trim();
 
-	
+	//if empty string
+	if(reply == ''){
+		//call prompt again with explaination why
+		continuePrompt(promptedText, 'Please provide some input.  ');
+	//else if the input is not a possible answer
+	}else if(possibleAnswers.indexOf(reply) == -1){
+		//call prompt again with explanation why
+		continuePrompt(promptedText, 'Please reply "yes" or "no"');
+	//else everything is good
+	}else{
