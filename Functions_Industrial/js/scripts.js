@@ -70,4 +70,22 @@ var code = {
 		//return a random word string
 		return this.Typestring;
 	},
-	
+	//function to return complex password
+	superDuper: function(wordArray, number){
+		//if there isn't a generated code use a random string
+		if(this.Typestring == ''){
+			//sort their input array randomly
+			wordArray.sort(function(){return 0.5 - Math.random()});
+			//grab 6 pieces
+			for(var i = 0; i < 6; i++){
+				//pop from array so we don't use the same word twice
+				var codePiece = wordArray.pop();
+				//store in object trimming whitespace
+				this.Typestring += codePiece.trim();
+			}
+		}
+		//randomly sort the object's special characters
+		this.randomSpecialChar.sort(function(){return 0.5 - Math.random()});
+		//get the first letter to capitalize
+		var firstLetter = this['Typestring'].slice(0,1).toUpperCase();
+		//return a concatinated string
