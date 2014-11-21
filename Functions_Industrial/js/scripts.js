@@ -105,3 +105,6 @@ console.log('This is a Simple Code: '+code.simple(CodeArray));
 console.log('This is a Super Duper code: '+code.superDuper(CodeArray,favoriteNumber));
 
 (function(){
+	$('body').append('<p>The code is: '+code.simple(CodeArray)+'</p>').append('<p>The Super Duper code is:  '+code.superDuper(CodeArray,favoriteNumber)+'</p>');
+});
+	
