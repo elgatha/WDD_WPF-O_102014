@@ -19,4 +19,7 @@ function numberPrompt(promptedText, errorType){
 		numberPrompt(promptedText, 'Please provide numeric input.  ');
 	//else 
 	}else{
-	
+		//return 
+		return theNumber;
+	}
+}
