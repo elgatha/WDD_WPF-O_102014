@@ -89,3 +89,10 @@ var code = {
 		//get the first letter to capitalize
 		var firstLetter = this['Typestring'].slice(0,1).toUpperCase();
 		//return a concatinated string
+		return this.randomSpecialChar.pop()+firstLetter+this['Typestring'].slice(1,this['Typestring'].length)+number;
+	}
+}
+
+//run our word array prompt function
+var CodeArray = promptForCode('In a comma separated list, provide a list of things that have relevance to you?  Please provide at least six.');
+
