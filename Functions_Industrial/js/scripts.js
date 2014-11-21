@@ -15,5 +15,9 @@ function promptForCode(promptedText, errorInfo){
 		//if null prompt again with explanation
 		promptForCode(promptedText, 'Please provide correct information, this does not compute.');
 	//else not null
-
+	}else{
+		//split into an array 
+		var relevantType = suppliedTypestring.split(',');
+	}
+	
 	
